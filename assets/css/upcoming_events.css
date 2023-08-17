@@ -1,0 +1,72 @@
+main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color:#a0cbe4b7;
+}
+
+/* Checkbox + SearchBar */
+
+#container-checkbox{
+    align-items: center;
+    
+}
+
+.cardbox{
+    padding: 20px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.input-group > .form-control{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    width: 1%;
+    margin: auto;
+}
+
+.d-flex{
+    margin: 4px;
+}
+
+.d-flex > .input-group{
+    margin-right: 2em;
+}
+
+/* Cards */
+
+.row{
+    width: 100%;
+}
+
+.card-body{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#card-button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.text-muted{
+    margin: 10px;
+}

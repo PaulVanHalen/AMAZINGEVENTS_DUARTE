@@ -1,9 +1,17 @@
 main{
-    padding: 10px;
-    margin: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.titulo{
+    display: flex;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color:#a0cbe4b7;
 }
 
 /* Checkbox + SearchBar */
@@ -11,6 +19,10 @@ main{
 #container-checkbox{
     align-items: center;
     
+}
+
+.cardbox{
+    padding: 20px;
 }
 
 .input-group{
