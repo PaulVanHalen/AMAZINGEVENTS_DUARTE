@@ -9,13 +9,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  
+  background-attachment: fixed;  
 }
 
 .navbar{
   background-color:#a7caffa2 !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
 .container-fluid{
   align-items: center !important;
@@ -39,7 +40,6 @@
 #navbarSupportedContent{
   text-align: center;
   justify-content: end;
-  padding: 0.5em;
 }
 
 .nav-item{
@@ -58,6 +58,6 @@ background-color:#a4d7eb;
 border-radius: 10px;
 }
 
-.navbar-nav{
-  margin: 5px;
+footer{
+  margin-top: 20px;
 }
