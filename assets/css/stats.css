@@ -1,0 +1,39 @@
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #c0cfd4;
+  }
+
+  .table td {
+    background-color: #eaf5ff;
+  }
+
+  .table th, .table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    height: 40px; /* Altura fija de las celdas */
+    vertical-align: top; /* Alineación vertical */
+  }
