@@ -1,4 +1,4 @@
-
+  /* Estilos para la tabla */
 .center-content {
   display: flex;
   justify-content: center;
@@ -12,28 +12,21 @@
 }
 
 .table {
-    border-collapse: collapse;
-    border: 2px solid black;
-  }
-  
-  .table th, .table td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  .table th {
-    background-color: #c0cfd4;
-  }
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
 
-  .table td {
-    background-color: #eaf5ff;
-  }
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  height: 40px;
+  vertical-align: top; 
+  background-color: #eaf5ff;
+}
 
-  .table th, .table td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: left;
-    height: 40px; /* Altura fija de las celdas */
-    vertical-align: top; /* Alineación vertical */
-  }
+.table th {
+  background-color: #c0cfd4;
+}

@@ -1,0 +1,41 @@
+main{
+display:flex;
+justify-content: center;
+align-items: center;
+max-width: 100%;
+margin-bottom: 90px;
+
+}
+
+
+/* para que no me rompa la pantalla y se haga una barra de desplazamiento */
+.row .col{
+    width: 100%;
+}
+
+.content{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.box{
+    background-color: #ced8e9ce;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.img-thumbnail{
+margin: 20px;
+padding: 2px;
+height:0 auto;
+}
+
+.card-image{
+    max-width: 100%;
+    margin: 10px;
+}
