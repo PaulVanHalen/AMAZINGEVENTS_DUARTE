@@ -1,4 +1,4 @@
-//separe el codigo de main js y esto lo uso para todas las secciones
+//separe el codigo para las cards y esto lo uso para todas las secciones asi no repito.
 
 function renderEventCards(events) {
     containerCard.innerHTML = '';
