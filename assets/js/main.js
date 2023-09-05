@@ -1,5 +1,4 @@
 let containerCard = document.getElementById('containerCard');
-//importante tener en cuenta que tenia error al llamar a "data" sin entrar al array con "events" (anotacion para el futuro)
 for (let event of data.events) {
     let cardBox = `
     <div class="col">
